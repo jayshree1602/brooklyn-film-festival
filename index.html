@@ -14,33 +14,31 @@
 <body>
 <!--Navigation-->
 <section id="nav">
-	
 <nav class="navbar navbar-expand-lg navbar-light">
-  <p class="navbar-brand" href="#"><img src="logo.png"></p>
+  <p class="navbar-brand mt-3" href="#"><img src="img/logo.png"></p>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">ABOUT US</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="#movies">MOVIES</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#location">LOCATION</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#ticket-booking">TICKET BOOKING</a>
-       <li class="nav-item">
-        <a class="nav-link" href="#team">TEAM</a>
-      </li>
-      
+        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#about">ABOUT US</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="#film-schedule">MOVIES</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#location">LOCATION</a>
+	      </li>
+	       <li class="nav-item">
+	        <a class="nav-link" href="#ticket-booking">TICKET BOOKING</a>
+	       <li class="nav-item">
+	        <a class="nav-link" href="#team">TEAM</a>
+	      </li>
       </li>
     </ul>
   </div>
@@ -49,111 +47,248 @@
 
 <!----Home------->
 
-<section id="homeimage">
-		<div class="home-pic-content">
-			    <div class="home-h1" ><b>Are you excited for a Film Festival ?</b></div><br>
-				<div class="home-button5">
-					<a href="https://www.youtube.com" class="home-btn home-btn-one">Watch video</a>
-					<a href="#about" class="home-btn home-btn-two">Explore More</a>
+<section id="homeimage" class="text-center pb-5 px-4">
+		<div class="home-pic-content pb-5">
+			    <div class="home-h1 text-center text-white"><b>ARE YOU EXCITED FOR A FILM FESTIVAL?</b></div><br>
+				<div class=" text-white pb-5 pt-4">
+					<a href="https://www.youtube.com" class="text-white mr-3 border home-btn-one p-4">WATCH VIDEO</a>
+					<a href="#about" class="border text-white p-4 home-btn-one home-btn">EXPLORE MORE</a>
 				</div>
 		</div>
 </section>
 
-
 <!-----about---->
-<section id="about">
+
+<section id="about" class="pt-5">
 	<div class="container">
-			<h1>About Us</h1>
-			<div class="about-content">
-				The Brooklyn Outdoor Film Festival is an independent film festival held for the first time this August in Brooklyn, New York. Started by Jennifer Viala, who is the founder of Brooklyn Vibes Events Co., its mission is to “discover, expose, and promote independent filmmakers while drawing worldwide attention to Brooklyn as a center for cinema." For its premier, the event will be held at the beautiful Brooklyn Bridge Park from August 5th through August 8th 2018.
-			</div>
+		<h1>About Us</h1>
+		<div class="pt-4">
+			<b>The Brooklyn Outdoor Film Festival is an independent film festival held for the first time this August in Brooklyn, New York. Started by Jennifer Viala, who is the founder of Brooklyn Vibes Events Co., its mission is to “discover, expose, and promote independent filmmakers while drawing worldwide attention to Brooklyn as a center for cinema." For its premier, the event will be held at the beautiful Brooklyn Bridge Park from August 5th through August 8th 2018.</b>
+		</div>
 	</div>
-	
 </section>
 
 <!-------Movies---->
+	
+<section id="film-schedule">
+                            <div class="container">
+                              <div class="films-header py-3 pt-md-2 pb-md-3 mx-auto text-center">
+                                <h1 class="display-5 mt-5">Movies</h1>
+                                <p class="lead content-grey"><b>The best movies for all age groups.</b></p>
+                                </div> <!-- End films-header -->
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" id="day1-tab" data-toggle="tab" href="#day1" role="tab" aria-controls="day1" aria-selected="true">Day 1</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="day2-tab" data-toggle="tab" href="#day2" role="tab" aria-controls="day2" aria-selected="false">Day 2</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="day3-tab" data-toggle="tab" href="#day3" role="tab" aria-controls="day3" aria-selected="false">Day 3</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="day4-tab" data-toggle="tab" href="#day4" role="tab" aria-controls="day4" aria-selected="false">Day 4</a>
+                                  </li>
+                                </ul>
 
-<!-----make row services= row movies---->
 
-	<section id="movies" >
-		<div class="container">
-			<h1>The Movies</h1>	
-			<div class=" row movies">
-				<div class="col-md-3 text-center">
-					
-					<img class="movie1" src="movie1.jpg">				
-					
-					<h3>The Avengers</h3>
-					<p>Marvel's The Avengers(classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland), or simply The Avengers, is a 2015 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.It is the sixth film in the Marvel Cinematic Universe (MCU). The Avengers cast Robert Downey Jr. as Tony Stark / Iron Man, Chris Evans as Steve Rogers / Captain America, Mark Ruffalo as Bruce Banner / Hulk, Chris Hemsworth as Thor.</p>
-				</div>
+                                <!-- Tab panes -->
+                                <div class="tab-content content-grey" id="movies">
+                                  <div class="tab-pane active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+                                    
+                                    <!-- Start films -->
+                                    <div class="row ">
+                                      <div class="p-5  col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class="marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top " src="img/movie1.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title text-center">The Avengers</h4>
+                                            <p class="card-text text-justify">Marvel's The Avengers (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland), or simply The Avengers, is a 2015 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.It is the sixth film in the Marvel Cinematic Universe (MCU). </p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class=" p-5  col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class=" marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top " src="img/movie2.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title text-center">Venom</h4>
+                                            <p class="card-text text-justify">Venom is a 2018 American superhero film based on the Marvel Comics character of the same name, produced by Columbia Pictures in association with Marvel[5] and Tencent Pictures. Distributed by Sony Pictures Releasing, it is the first film in Sony's Marvel Universe, adjunct to the Marvel Cinematic Universe (MCU). Directed by Ruben Fleischer from a screenplay by Scott Rosenberg, Jeff Pinkner, and Kelly Marcel
+                                             
+                                            </p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                               
+                                  </div>
+                                  <!-------------->
+                                  <div class="tab-pane" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+                                    <div class="row ">
+                                      <div class="p-5 col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class="marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top" src="img/movie3.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title">Apocalypto</h4>
+                                            <p class="card-text">Set in the Yucatan, Mexico around the year 1502, Apocalypto portrays the hero's journey of a young man named Jaguar Paw, an early Mesoamerican hunter and his fellow tribesmen who are captured by an invading force after the devastation of their village and brought on a perilous journey to a Mayan city for human sacrifice at a time when the Maya civilization is in decline.</p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class=" p-5 col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class="marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top " src="img/movie4.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title">Interstellar</h4>
+                                            <p class="card-text">
+                                              Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel, to find a new livable planet. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.
+                                            </p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
 
-				<div class="col-md-3 text-center">
-					<img class="movie1" src="movie2.jpg">	
-					<h3>Inception</h3>
-					<p>Inception is a 2010 science fiction action film written, co-produced, and directed by Christopher Nolan, and co-produced by Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious, and is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast additionally includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Ellen Page, Tom Hardy, Dileep Rao, Cillian Murphy, Tom Berenger, and Michael Caine.</p>
-				</div>
-				
+                                  <!------------>
+                                  <div class="tab-pane" id="day3" role="tabpanel" aria-labelledby="day3">
+                                    <div class="row">
+                                      <div class="row">
+                                      <div class="p-5 col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class="marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top" src="img/movie5.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title">Avatar</h4>
+                                            <p class="card-text">Avatar (marketed as James Cameron's Avatar) is a 2009 American epic science fiction film directed, written, produced, and co-edited by James Cameron, and stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora.</p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class=" p-5 col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class="marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top " src="img/movie6.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title">Toy Story 4</h4>
+                                            <p class="card-text">
+                                              Toy Story 4 is an American 3D computer-animated comedy film produced by Pixar Animation Studios for Walt Disney Pictures. It is the fourth installment in Pixar's Toy Story series, and the sequel to 2010's Toy Story 3. It is directed by Josh Cooley (in his theatrical feature film directorial debut), with the script written by Stephany Folsom and Andrew Stanton, while previous films' writers John Lasseter, Pete Docter, Stanton, and Lee Unkrich conceiving the film's story.
+                                            </p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                      
+                                    </div>
+                                  </div>
 
-				<div class="col-md-3 text-center">
-					<img class="movie1" src="movie3.jpg">	
-					<h3>Toy Story 4</h3>
-					<p>Toy Story 4 is an American 3D computer-animated comedy film produced by Pixar Animation Studios for Walt Disney Pictures. It is the fourth installment in Pixar's Toy Story series, and the sequel to 2010's Toy Story 3. It is directed by Josh Cooley (in his theatrical feature film directorial debut), with the script written by Stephany Folsom and Andrew Stanton, while previous films' writers John Lasseter, Pete Docter, Stanton, and Lee Unkrich conceiving the film's story.</p>
-				</div>
-				
+                                  <!-------->
+                                  <div class="tab-pane" id="day4" role="tabpanel" aria-labelledby="day4">
+                                    
+                                    <div class="row">
+                                      <div class="p-5 col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class="marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top" src="img/movie7.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title">Inception</h4>
+                                            <p class="card-text">Inception is a 2010 science fiction action film written, co-produced, and directed by Christopher Nolan, and co-produced by Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious, and is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast additionally includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Ellen Page, Tom Hardy, Dileep Rao, Cillian Murphy, Tom Berenger, and Michael Caine.</p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class=" p-5  col-sm-12 col-md-12 col-lg-6 col-film py-2">
+                                        <div class="marginmoviecard card card-film d-block shadow">
+                                          <img class="card-img-top " src="img/movie8.jpg" alt="Card image">
+                                          <div class="card-body">
+                                            <h4 class="card-title film-title">Incredibles 2</h4>
+                                            <p class="card-text">
+                                              Incredibles 2 is a 2018 American computer-animated superhero film produced by Pixar Animation Studios and distributed by Walt Disney Pictures. Written and directed by Brad Bird, it is a sequel to The Incredibles (2004) and the second full-length installment of the franchise. The story follows the Parr family as they try to restore the public's trust in superheroes while balancing their family life, only to combat a new foe who seeks to turn the populace against all superheroes. 
+                                            </p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
 
-				<div class="col-md-3 text-center">
-					<img class="movie1" src="movie4.jpg">	
-					<h3>Avatar</h3>
-					<p>Avatar (marketed as James Cameron's Avatar) is a 2009 American epic science fiction film directed, written, produced, and co-edited by James Cameron, and stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium, a room-temperature superconductor. The expansion of the mining colony threatens the continued existence of a local tribe of Na'vi – a humanoid species indigenous to Pandora.</p>
-				</div>
-				
-				
-			</div>	
-		</div>
-	</section>
+                                  <!--------->
+                                </div>
+                                
+                              </div>
+                            </section>
+                            
 
 <!------Location------->
+
 <section class="container">
 	<div id="location"><br><br><h1>Brooklyn Outdoor Film Festival</h1></div>
-	<div class="about-date">August 5th to 8th @ Brooklyn Bridge Park, New York</div>
-
+	<div class="text-center content-grey">August 5th to 8th @ Brooklyn Bridge Park, New York</div>
 </section>
 
 	
 <!---Form----->
-	<section class="container" id="ticket-booking">
-		<h1><br><br>Ticket Booking</h1>
-		<div id="formbody">
-			<p style="text-align: center; font-size: 20px; padding-top: 20px; color: rgba(14,109,155,1);"><b>The event is for film lovers of all ages and free, pre-registering is necessary to secure a spot.</b></p>
-			<div class="simple-form">  
-				<form id="registration">
-					<input type="text" name="fname" id="button" placeholder="Enter your first name" ><br><br>
-					<input type="text" name="lname" id="button" placeholder="Enter your last name" ><br><br>
-					<input type="text" name="email" id="button" placeholder="Enter your email id" ><br><br>
-					<select id="ph"><option>+1</option><!--<option>+92</option><option>+95</option>--></select>
-					<input type="number" name="num" id="phone" placeholder="Enter your mobile number" ><br><br>
-					<input type="text" name="movie" id="button" placeholder="The movie you want to watch" ><br><br>
-					<input type="date" name="moviedate" id="button" placeholder="Show time" ><br><br>
-					<!--<input id="ti" type="time" name="movietimee" id="button" placeholder="Show time" ><br><br>-->
-					<span style="color: white; padding: 0px 50px; font-size: 18px;">Movie Slot</span>
-					<select id="ms"><option>6 PM</option><option>9 PM</option><option>12 AM</option></select><br><br>
-					<span style="color: white; padding: 0px 65px; font-size: 18px;">     Tickets</span>
-					<select id="ms"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select><br><br>
-					<input type="submit" name="" value="Register" class="regbutton" id="regbutton1">
 
+	<section  id="ticket-booking" class="pb-5">
+		<h1><br><br>Ticket Booking</h1>
+		<div id="formbody" class="pb-5 pt-2">
+			<p class="pt-5 text-center px-4 ticket-content" <b>The event is for film lovers of all ages and free, pre-registering is necessary to secure a spot.</b></p><br>
+			<div class="container pb-4">  
+				<form id="registration" class="py-5 pt-5">
+						<input class="form-control" type="text" name="fname" id="name" placeholder="Enter your first name" ><br>
+						<input class="form-control" type="text" name="lname" id="name" placeholder="Enter your last name" ><br>
+						<input class="form-control" type="text" name="email" id="email" placeholder="Enter your email id" ><br>
+						<input class="form-control" type="number" name="num" id="phone" placeholder="Enter your mobile number"><br>
+						<input class="form-control" type="text"  name="movie" id="movie-name" placeholder="The movie you want to watch" ><br>
+						<div class="form-group">
+							<label for="movietime" class="text-white">Movie Date</label>
+							<select class="form-control" id="slot-time" >
+								<option>5th August</option>
+								<option>6th August</option>
+								<option>7th August</option>
+								<option>8th August</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="movietime" class="text-white">Movie Slot</label>
+							<select class="form-control" id="slot-time">
+								<option>7 PM</option>
+								<option>10 PM</option>
+							
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="movietime" class="text-white">Number of Tickets</label>
+							<select  id="slot-time" class="form-control ">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+							</select>
+						</div>							
+						</select><br>
+						<button class="btn btn-primary btn-block" type="submit">Register</button>
 				</form>
 			</div>
 		</div>
 	</section>
 
+
 <!---Team members---->
+
 	<section id="team">
 		<div class="container">
 			<h1>Our Team</h1>
 			<div class="row">
-				<div class="col-md-3 profile-pic text-center">
+
+				<div class=" profile-pic text-center col-md-6 col-lg-3 col-sm-12">
 					<div class="img-box">
-						<img class="teamimage" src="team1.jpg" class="img-responsive">
+						<img class="teamimage" src="img/team1.jpg" class="img-responsive">
 						<ul>
 							<a href="https://facebook.com" target="blank"><li><i class="fa fa-facebook"></i></li></a>
 							<a href="https://twitter.com" target="blank"><li><i class="fa fa-twitter"></i></li></a>
@@ -166,9 +301,9 @@
 
 				</div>
 
-				<div class="col-md-3 profile-pic text-center">
+				<div class=" profile-pic text-center  col-md-6 col-lg-3 col-sm-12">
 					<div class="img-box">
-						<img class="teamimage" src="team2.jpg" class="img-responsive">
+						<img class="teamimage" src="img/team2.jpg" class="img-responsive">
 						<ul>
 							<a href="https://facebook.com" target="blank"><li><i class="fa fa-facebook"></i></li></a>
 							<a href="https://twitter.com" target="blank"><li><i class="fa fa-twitter"></i></li></a>
@@ -181,9 +316,9 @@
 
 				</div>
 
-				<div class="col-md-3 profile-pic text-center">
+				<div class="profile-pic text-center   col-md-6 col-lg-3 col-sm-12">
 					<div class="img-box">
-						<img class="teamimage" src="team3.jpg" class="img-responsive">
+						<img class="teamimage" src="img/team3.jpg" class="img-responsive">
 						<ul>
 							<a href="https://facebook.com" target="blank"><li><i class="fa fa-facebook"></i></li></a>
 							<a href="https://twitter.com" target="blank"><li><i class="fa fa-twitter"></i></li></a>
@@ -196,9 +331,9 @@
 
 				</div>
 
-				<div class="col-md-3 profile-pic text-center">
+				<div class=" profile-pic text-center  col-md-6 col-lg-3 col-sm-12">
 					<div class="img-box">
-						<img class="teamimage" src="team4.jpg" class="img-responsive">
+						<img class="teamimage" src="img/team4.jpg" class="img-responsive">
 						<ul>
 							<a href="https://facebook.com" target="blank"><li><i class="fa fa-facebook"></i></li></a>
 							<a href="https://twitter.com" target="blank"><li><i class="fa fa-twitter"></i></li></a>
@@ -208,60 +343,48 @@
 					<h2>Richie Blyn</h2>
 					<h3>Management Head</h3>
 					<p>The film festival in your city and is gonna be remarkable, book your seats.</p>
-
 				</div>
-
 			</div>
-			
 		</div>
-		
 	</section>
 
 <!------Footer----------------->
+
 <section id="footer">
-	<div class="footer-main-div">
-		<div >
-			<h3 style="padding:20px; text-align: center; color: white;">Find us also at</h3>
-			<ul style="padding:20px; text-align: center; font-size: 20px">
-				<li style="padding-bottom: 15px; "><a href="http://brooklyn.news12.com/" target="blank">Brooklyn’s news website</a></li>
+	<div class="footer-main-div py-4 px-3">
+		<div>
+			<h3 class="pt-3 text-center text-white">Find us also at</h3>
+			<ul class="pt-3 text-center fot-hov" style="font-size: 20px">
+				<li class="pb-3 fot-ho" "><a href="http://brooklyn.news12.com/" target="blank">Brooklyn’s news website</a></li>
 				<li><a href="https://www.brooklynbridgepark.org/" target="blank">Brooklyn Bridge Park’s website</a></li>
 			</ul>
 		</div>
-		<div class="footer-social-icons">
-			<ul>
-				<li><a href="https://facebook.com" target="blank"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="https://twitter.com" target="blank"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a></li>
-				<li><a href="https://youtube.com" target="blank"><i class="fa fa-youtube"></i></a></li>
+		<div class="footer-social-icons p-3 ">
+			<ul class="text-center">
+				<li class="m-1"><a href="https://facebook.com" target="blank"><i class="fa fa-facebook"></i></a></li>
+				<li class="m-1"><a href="https://twitter.com" target="blank"><i class="fa fa-twitter"></i></a></li>
+				<li class="m-1"><a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a></li>
+				<li class="m-1"><a href="https://youtube.com" target="blank"><i class="fa fa-youtube"></i></a></li>
 			</ul>
-
-			
 		</div>
 	
-
-		<div class="footer-menu-one">
+		<div class="footer-menu-one text-center ">
 			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About Us</a></li>
-				<li><a href="#movies">Movies</a></li>
-				<li><a href="#location">Location</a></li>
-				<li><a href="#ticket-booking">Ticket Booking</a></li>
-				<li><a href="#team">Team</a></li>
-				
+				<li class="p-3"><a href="#home"><b>HOME</b></a></li>
+				<li  class="p-3"><a href="#about"><b>ABOUT US</b></a></li>
+				<li  class="p-3"><a href="#movies"><b>MOVIES</a></b></li>
+				<li class="p-3"><a href="#location"><b>LOCATION</b></a></li>
+				<li class="p-3"><a href="#ticket-booking"><b>TICKET BOOKING</b></a></li>
+				<li class="p-3"><a href="#team"><b>TEAM</b></a></li>	
 			</ul>
-			
 		</div>
 	</div>
 
-	<div class="footer-bottom">
-		<p>All Copyrights Reserved © 2019 -  <a href="#"> Brooklyn Outdoor Film Festival </a></p>
-		<p>Design with <i class="fa fa-heart"></i> by <a href="https://facebook.com/jayshreephulare1"> Jayshree Phulare </a> for Openclassroom Project </p>
+	<div class="footer-bottom text-center py-4 px-3 ">
+		<p class="pt-3">All Copyrights Reserved © 2019 - <a href="#"> Brooklyn Outdoor Film Festival </a></p>
+		<p class="pb-2 ">Design with <i class="fa fa-heart"></i> by <a href="https://facebook.com/jayshreephulare1"> Jayshree Phulare </a> for Openclassroom Project </p>
 	</div>
-
 </section>
-
-	
-
 
 </body>
 </html>
